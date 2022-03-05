@@ -87,7 +87,7 @@ void EventHandler(enum events ev)
 
 Burada dikkat edilmesi gereken bir husus var. O da **state machine**'e ilk **state**'i bildirmek. Daha sonra girilen **action**'lara göre yeni state değeri belirlenecek.  
 
-Yukarıda belirtine **action**'lardan birini inceleyelim.  
+Yukarıda belirtilen **action**'lardan birini inceleyelim.  
 ```c
 void ACT_low_speed_press_break(void)
 {
